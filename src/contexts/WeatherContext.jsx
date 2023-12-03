@@ -11,7 +11,7 @@ export const WeatherProvider = ({children}) => {
   
   useEffect(() => {
     setLoading(true);
-    const api_key = "77edbb30e959810d603c8b5289390528";
+    const api_key = "";
     const api_url = `https://api.openweathermap.org/data/2.5/forecast?q=${selectedCity}&cnt=7&appid=${api_key}&units=metric`;
     // https://api.openweathermap.org/data/2.5/weather?q=${selectedCity}&appid=${api_key}&units=metric
 
